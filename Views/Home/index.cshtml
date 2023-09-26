@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "LandingPage";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <h1>Select this below option and see may portfolio</h1>
+
+    <ul>
+        <li><a href="@Url.Action("Home1", "Home")">Home</a></li>
+        <li><a href="@Url.Action("Education", "Home")">Education</a></li>
+        <li><a href="@Url.Action("Projects", "Home")">Projects</a></li>
+        <li><a href="@Url.Action("PersonalInfo", "Home")">Personal Info</a></li>
+        <li><a href="@Url.Action("References", "Home")">References</a></li>
+    </ul>
+</body>
+</html>
+
